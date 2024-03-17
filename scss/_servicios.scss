@@ -1,0 +1,22 @@
+
+.alimentacion {
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    justify-content: center;
+    color: map-get($colores , color-texto );
+    height: 100px;
+    font-size: 30px;
+    a{
+        color: map-get($colores , color-texto );
+        font-weight: bolder;
+        text-decoration: none;
+    }
+}
+.apple {
+    color: map-get($colores, color-fondo );
+    text-align: center;
+    font-size: 100px;
+    height: 200px;
+    letter-spacing: 50px;
+  }
+

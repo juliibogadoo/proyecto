@@ -1,0 +1,63 @@
+header {
+    margin: auto;
+    font-family: "Josefin Sans", sans-serif;
+    nav{
+      .barra{
+          display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    padding: 12px;
+    height: 120px;
+      }
+      .menu {
+        display: flex;
+        li{
+            height: 200px;
+    padding-left: 30px;
+    a{
+        display: inline-block;
+        position: relative;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        transition: 0.15s ease-in-out;
+        color: map-get($colores , color-texto );
+        &::after{
+            content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: map-get($colores , color-texto );
+    transition: 0.15s ease-in-out;
+}
+&:hover:after{
+width: 100%;
+}
+    }
+        }
+      }
+    }
+  }
+  
+  
+  
+  
+  .abierto, .cerrar {
+    position: absolute;
+    color: map-get($colores , color-texto );
+    cursor: pointer;
+    font-size: 1.5rem;
+    top: 200%;
+    right: 20px;
+    display: none;
+    transform: translateY(-50%);
+  }
+  
+  #check {
+    display: none;
+  }
+  

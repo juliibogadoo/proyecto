@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Titan+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726_1280.jpg);
+    background-size: cover;
+  }
+  
+  h1 {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: map-get($colores , color-texto );
+    font-size: 25px;
+  }

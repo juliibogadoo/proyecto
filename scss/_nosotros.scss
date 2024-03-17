@@ -1,0 +1,35 @@
+.nosotros {
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: map-get($colores , color-texto );
+    padding: 50px;
+    font-size: 30px;
+    a{
+        padding: 40px 80px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: map-get($colores, color-terciario );
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: map-get($colores, color-fondo );
+    transition: all 300ms;
+    &:hover{
+        background-color: map-get($colores, color-secundario );
+        color: map-get($colores , color-texto );
+        transform: scale(1,15);
+    }
+    }
+  }
+  .nosotros1 {
+    font-weight: bolder;
+    font-size: 35px;
+    color:map-get($colores, color-fondo );
+  }
+  
+  
+  
+  
+
+  

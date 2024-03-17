@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: map-get($colores , color-texto );
+    background-color: map-get($colores, color-terciario );
+    padding: 10px 6px 10px;
+    text-decoration: none;
+    a{
+      font-size: 20px;
+      letter-spacing: 10px;
+      color: map-get($colores , color-texto );
+    }
+  }
+  
+  
