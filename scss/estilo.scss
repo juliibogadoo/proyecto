@@ -1,11 +1,11 @@
 @import 'maps';
-@import 'general';
 @import 'header';
+@import 'general';
 @import 'footer';
 @import 'index';
-@import 'planes';
-@import 'contacto';
-@import 'servicios';
-@import 'nosotros';
+@import './pages/planes';
+@import './pages/contacto';
+@import './pages/nosotros';
+@import './pages/servicios';
 @import 'queries';
 
